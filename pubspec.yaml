@@ -1,0 +1,26 @@
+name: cookie_auth_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  get_it: ^7.6.7
+  flutter_bloc: ^8.1.3
+  http: ^1.2.0
+  responsive_sizer: ^3.3.0+1
+  shared_preferences: ^2.2.2
+  fluttertoast: ^8.1.2
+  cookie_jar: ^4.0.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
